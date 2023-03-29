@@ -77,6 +77,7 @@ def get_images_from_baidu(keyword, page_num, save_dir):
             n = n + 1
 
 
+
 if __name__ == '__main__':
     keyword = '猫'
     save_dir = "../data/cat"
