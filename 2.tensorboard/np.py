@@ -16,6 +16,36 @@ def demo():
     # arr.max()
     # 数组中是否有满足条件的元素
     np.any(arr > 4)
+    ## 摊平
+    flat = arr.flatten()
+    print(flat)
+
+
+    ## 转数组
+    lst =arr.tolist()
+    for i in lst:
+        print(i)
+    print(list)
+
+    # 判断矩阵内是否有 0 或者 false 数据
+    r = arr.all()
+    print(r)
+
+    # 深拷贝
+    cpy = arr.copy()
+    isDeep = cpy is arr
+    print(isDeep)
+
+
+
+
+
+
+
+
+
+
+
 
 
 
